@@ -1,0 +1,30 @@
+{
+  "name": "solana-arb-engine",
+  "version": "1.0.0",
+  "description": "Starter Solana arbitrage spread logger for Orca vs Raydium",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "solana",
+    "arbitrage",
+    "raydium",
+    "orca",
+    "dex"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
